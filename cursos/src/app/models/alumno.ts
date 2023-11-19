@@ -5,5 +5,5 @@ export class Alumno {
   años: number
   email: string;
   createAt: string;
-  fotoHashCode: number;
+  //fotoHashCode: number;
 }
