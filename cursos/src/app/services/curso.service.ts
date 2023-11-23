@@ -9,7 +9,9 @@ import { Curso } from '../models/curso';
 })
 export class CursoService {
 
-  private baseEndpoint = 'localhost:8090/api/cursos';
+ // private baseEndpoint = 'localhost:8090/api/cursos';
+ private baseEndpoint = 'http://119.8.148.191:8090/api/cursos';
+
   private cabeceras: HttpHeaders = new HttpHeaders({'ContentType': 'application/json'});
 
   constructor(private http: HttpClient) { }

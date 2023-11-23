@@ -11,7 +11,8 @@ import { Alumno } from '../models/alumno';
 
 export class AlumnoService {
 
-  private baseEndpoint = 'http://localhost:8090/api/alumno';
+ // private baseEndpoint = 'http://localhost:8090/api/alumno';
+  private baseEndpoint = 'http://119.8.148.191:8090/api/alumno';
   private cabeceras: HttpHeaders = new HttpHeaders({'ContentType': 'application/json'});
 
   constructor(private http: HttpClient) { }
